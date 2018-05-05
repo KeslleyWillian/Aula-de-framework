@@ -1,10 +1,105 @@
 <html>
 <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso segundo projeto</title>
+    <!--The Bootstrap 3.3.7 code -->
+    <!--http://getbootstrap.com/docs/3.3/components/-->
+    <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <style>
+        .cor1{
+            background-color: #D3D3D3;
+        }
+            .img{
+            width: 30px;
+            height: auto;
+            }  
+    </style>
+
 </head>
 <body>
-    <div>
+    <div class="container">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"></script>
+        <div class="row"" style="background-color:#FF851B">
+            <h1> Hello, world!</h1>
+            <h2> Hello, world!</h2>
+            <h3> Hello, world!</h3>
+            <h4> Hello, world!</h4>
+            <h5> Hello, world!</h5>
+            <h6> Hello, world!</h6>
+        </div>
+        <div class="row">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th> Id</th>
+                        <th> Nome</th>
+                        <th> Email</th>
+                        <th> Curso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>00001</th>
+                        <th>Joana D'arc de la France</th>
+                        <th>joanadarc@email.com</th>
+                        <th>História</th>
+                    </tr>
+                    <tr>
+                        <th>00002</th>
+                        <th>Akhenáton Amenhotep IV </th>
+                        <th>atonemaisdahoraqueamon@email.com</th>
+                        <th>Teologia</th>
+                    </tr>
+                    <tr>
+                        <th>00003</th>
+                        <th>Carolina Josefa Leopoldina Francisca Fernanda de Habsburgo-Lorena</th>
+                        <th>leopoldesc@email.com</th>
+                        <th>Linguagens</th>
+                    </tr>
+                    <tr>
+                        <th>00004</th>
+                        <th>Leonardo di Ser Piero da Vinci</th>
+                        <th>monalisaquerida@email.com</th>
+                        <th>Tudo</th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div class="container" >
+        <div class="row" style="margin-top: 50 px">
+            <div class="col col-md-1"></div>   
+            <div class="col col-md-3 cor1 " >
+                <form action="primeiro.html">
+                    <div class="form-group">
+                        <label> Login <label>
+                        <input class="form-control" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label> Senha <label>
+                        <input class="form-control" type="password" placeholder="Digite aqui"/>
+                    </div>
+                    <button class="btn btn-success btn-log" type="submit" >Logar</button>
+                </form><!--O botao pode ser dentro ou fora do /form
+                        <input class="btn btn-default" type="submit" value="Submit2">-->
+            </div>
+            <div class="col col-lg-2 ">
+                <img src="17ca5dc8b7ded6b3e9b1c5aefcac9d35.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class="col col-lg-12 ">
+                <div class="alert alert-warning" role="alert">
+                    <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+                    Restam 26 dias para o término da sua vida. Aproveite
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"></script>
+                    
+                
+            
+        </div>
+    </div>
 </body>
 </html>
